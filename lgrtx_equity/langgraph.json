@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "lgtrx_bias_mitigation": "app.graph:graph"
+  },
+  "env": ".env"
+}

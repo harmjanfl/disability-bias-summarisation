@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: lgtrx-studio
+Version: 0.1.0
+Summary: Studio-ready LangGraph app for bias-mitigation summarization
+Requires-Python: >=3.11
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: langgraph>=0.2.0
+Requires-Dist: langchain-openai>=0.2.0
+Requires-Dist: langchain-core>=0.3.0
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: scikit-learn>=1.4.0
+Requires-Dist: openai>=1.0.0
+Requires-Dist: torch
+Requires-Dist: sentence-transformers

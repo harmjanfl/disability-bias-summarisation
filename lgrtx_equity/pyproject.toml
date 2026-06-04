@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lgtrx-studio"
+version = "0.1.0"
+description = "Studio-ready LangGraph app for bias-mitigation summarization"
+requires-python = ">=3.11"
+dependencies = [
+  "python-dotenv>=1.0.0",
+  "langgraph>=0.2.0",
+  "langchain-openai>=0.2.0",
+  "langchain-core>=0.3.0",
+  "numpy>=1.26.0",
+  "scikit-learn>=1.4.0",
+  "openai>=1.0.0",
+  "torch",
+  "sentence-transformers"
+]
+
+[tool.setuptools]
+packages = ["app"]
